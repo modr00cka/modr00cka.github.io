@@ -1,100 +1,378 @@
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Matúš Falis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
 
-<!DOCTYPE html>
-<!-- Add icon library -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Matúš Falis</title>
-<meta name="generator" content="Jekyll v3.7.4" />
-<meta property="og:title" content="Matúš Falis" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="/" />
-<meta property="og:url" content="/" />
-<meta property="og:site_name" content="Matúš Falis" />
-<script type="application/ld+json">
-{"@type":"WebSite","url":"/","name":"Matúš Falis","headline":"Matúš Falis","@context":"http://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Conor Durkan" /></head>
-<body><!-- <header class="site-header" role="banner">
+				<!-- Header -->
+					<header id="header">
+						<div class="content">
+							<div class="inner">
+								<h1>Matúš Falis</h1>
+								<p>Making tea and asking questions</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="#work">Research</a></li>
+								<li><a href="#about">Sunday Tea</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
 
-</header> -->
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div class="home">
+				<!-- Main -->
+					<div id="main">
 
-<img src="mug.jpg" alt="Mug" style="width:200px;height:258px;">
-  <h1 id="name">Matúš Falis</h1>
-<p> I am a PhD student in the Institute of Language Cognition and Computation at <a href="https://www.ed.ac.uk/">University of Edinburgh</a> supervised by <a href="https://homepages.inf.ed.ac.uk/balex/">Beatrice Alex</a>. <p>
-<p> I am a member of the <a href = "https://web.inf.ed.ac.uk/cdt/biomedical-ai">CDT in Biomedical AI<a>
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">Introduction</h2>
+								<center><span class="image main"><img src="images/pic01.jpg" style="width:220px;height:284px;" alt="" /></span></center>
+								<p>I am a PhD student in the <a href="https://web.inf.ed.ac.uk/ilcc" target="_blank">Institute of Language Cognition and Computation</a> at <a href="https://www.ed.ac.uk/" target="_blank">the University of Edinburgh</a> supervised by <a href="https://homepages.inf.ed.ac.uk/balex/" target="_blank"> Doctor Beatrice Alex</a> and <a href="https://sites.google.com/view/alexandra-birch/" target='_blank'>Doctor Alexandra Birch.</a> I am a member of the <a href = "https://web.inf.ed.ac.uk/cdt/biomedical-ai" target="_blank">CDT in Biomedical AI</a><p>
+<p> My research focuses on Large-Scale Multi-Label Document Classification in the medical domain in the task of Automatic ICD Coding of discharge summaries. <p>
+<p> Prior to my PhD studies, I worked as a research engineer at Canon Medical Research Europe. My undergraduate degree was an integrated Master of Informatics at the University of Edinburgh. A full CV is available upon request.<p>
 
-<h2 id="publications">Publications</h2>
-<p><strong>CoPHE: A Count-Preserving Hierarchical Evaluation Metric in Large-Scale Multi-Label Text Classification</strong><br />
+								
+								</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Research</h2>
+								<p> My research focuses on incorporating external biomedical knowledge (e.g., the International Classification of Diseases ontology) into deep learning methods. This includes adjustments in data preparation (through augmentation and synthesis based on external knowledge), evaluation, and architecture-building.
+								<p><strong>Automated Clinical Coding: What, Why, and Where We Are?</strong><br />
+Hang Dong, Matúš Falis, William Whiteley, Beatrice Alex, Joshua Matterson, Shaoxiong Ji, Jiaoyan Chen, Honghan Wu<br />
+<em>npj Digital Medicine </em><br />
+<a href="https://arxiv.org/abs/2203.11092" target="_blank">[arxiv preprint]</a>
+								<p><strong>Horses to Zebras: Ontology-Guided Data Augmentation and Synthesis for ICD-9 Coding</strong><br />
 Matúš Falis, Hang Dong, Alexandra Birch, Beatrice Alex<br />
-<em>Interpretable and Annotation-Efficient Learning for Medical Image Computing, 2020 </em><br />
-<em> Work done at Canon Medical Research Europe</em><br />
-<a href="https://arxiv.org/abs/2109.04853">[arxiv pre-print]</a>
+<em>BioNLP 2022 </em><br />
+<a href="https://aclanthology.org/2022.bionlp-1.39.pdf" target="_blank">[pdf]</a>
+								<p><strong>CoPHE: A Count-Preserving Hierarchical Evaluation Metric in Large-Scale Multi-Label Text Classification</strong><br />
+Matúš Falis, Hang Dong, Alexandra Birch, Beatrice Alex<br />
+<em>EMNLP 2021 </em><br />
+<a href="https://aclanthology.org/D19-6220.pdf" target="_blank">[pdf]</a>
 <p>
 <p><strong>Paying Per-label Attention for Multi-label Extraction from Radiology Reports</strong><br />
 Patrick Schrempf, Hannah Watson, Shadia Mikhael, Maciej Pajak, Matúš Falis, Aneta Lisowska, Keith W Muir, David Harris-Birtill, Alison Q O’Neil<br />
 <em>Interpretable and Annotation-Efficient Learning for Medical Image Computing, 2020 </em><br />
-<em> Work done at Canon Medical Research Europe</em><br />
-<a href="https://arxiv.org/pdf/2007.16152.pdf">[pdf]</a>
+<a href="https://arxiv.org/pdf/2007.16152.pdf" target="_blank">[pdf]</a>
 <p>
 <p><strong>Language Transfer for Early Warning of Epidemics from Social Media</strong><br />
 Mattias Appelgren, Patrick Schrempf, Matúš Falis, Satoshi Ikeda, Alison Q. O'Neil <br />
 <em>Accepted HADR+AI workshop, NeurIPS, 2019 </em><br />
-<em> Work done at Canon Medical Research Europe</em><br />
-<a href="https://arxiv.org/abs/1910.04519">[arxiv]</a>
+<a href="https://arxiv.org/abs/1910.04519" target="_blank">[arxiv]</a>
 </p>
 
 <p><strong>Ontological attention ensembles for capturing semantic concepts in ICD code prediction from clinical text</strong><br />
-Matus Falis, Maciej Pajak, Aneta Lisowska, Patrick Schrempf, Lucas Deckers, Shadia Mikhael, Sotirios Tsaftaris, Alison O’Neil<br />
+Matúš Falis, Maciej Pajak, Aneta Lisowska, Patrick Schrempf, Lucas Deckers, Shadia Mikhael, Sotirios Tsaftaris, Alison O’Neil<br />
 <em>Tenth International Workshop on Health Text Mining and Information Analysis (LOUHI), 2019 </em><br />
-<em> Work done at Canon Medical Research Europe</em><br />
-<a href="https://aclanthology.org/D19-6220.pdf">[pdf]</a>
+<a href="https://aclanthology.org/D19-6220.pdf" target="_blank">[pdf]</a>
 </p>
 
 
 <p><strong>Software feature request detection in issue tracking systems</strong><br />
 Thorsten Merte, Matúš Falis, Paul Hübner,  Thomas Quirchmayr, Simone Bürsner, Barbara Paech <br />
 <em>IEEE 24th International Requirements Engineering Conference, 2016 </em><br />
-<a href="http://se.ifi.uni-heidelberg.de/fileadmin/pdf/publications/2016_Software_Feature_Request.pdf">[pdf]</a>
-</p>
+<a href="http://se.ifi.uni-heidelberg.de/fileadmin/pdf/publications/2016_Software_Feature_Request.pdf" target="_blank">[pdf]</a>
+</p>							</article>
 
+						<!-- About -->
+							<article id="about">
+								<h2 class="major">Sunday Tea</h2>
+								<span class="image main"><img src="images/pic03.jpg" alt="" /></span>
+								<p>Sunday Tea is an iniative designed to promote honest and open in-person communication.</p>  
+								<p>The COVID-19 pandemic highlighted to me the issues of physical, mental, and emotional isolation. Coming back from the lockdowns, I would like to have a timeslot dedicated to understanding people — both others and myself. The spirit of the initiative is to say whatever needs to be said — be it your challenges with your PhD/work/daily life, your deep philosophical thoughts, or the most beautiful thing that happened to you last week. I cannot promise to understand, but I will do my best to listen.</p>
+								<p>If interested in attending Sunday Tea, please sign up <a href="https://forms.gle/u8aRZPsi32SVVsJf9" target="_blank">here</a>.
+							</article>
 
-<h2 id="contact">Contact</h2>
-<p>Office: Room 3.34<br>
-Informatics Forum<br>
-10 Crichton Street<br>
-Edinburgh, EH8 9AB</p>
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<p>Email: s1206296[at]ed[dot]ac[dot]uk</p>
+								<p>Office: Room 3.34, Informatics Forum, 10 Crichton Street, Edinburgh, EH8 9AB</p>
 
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/mat%C3%BA%C5%A1-falis-206555a6/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+									<li><a href="https://github.com/modr00cka" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://twitter.com/matt_falis" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								</ul>
+							</article>
 
-<!-- Add font awesome icons -->
-<a href="mailto:s1206296.sms.ed.ac.uk" class="fa fa-envelope" style="color:red;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;"></a>
-<a href="https://github.com/modr00cka/" class="fa fa-github" style="color:red;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;"></a>
-<a href="https://twitter.com/matt_falis" class="fa fa-twitter" style="color:red;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;"></a>
-</div>
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
 
-      </div>
-    </main>
-</body>
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
 
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
